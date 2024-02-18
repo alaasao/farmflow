@@ -1,0 +1,19 @@
+.desc {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.desc h1 {
+  margin-left: 4vw;
+  color: #403c39;
+
+  font-family: "Poppins";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}

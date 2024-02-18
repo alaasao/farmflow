@@ -1,0 +1,71 @@
+.logo {
+  position: absolute;
+  z-index: -1;
+
+  
+  left: 0px;
+}
+.nav {
+  overflow: hidden;
+  display: flex;
+  padding-left: 26.4%;
+  padding-right: 2vw;
+  width: 100vw;
+  height: 120px;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  background-color: white;
+}
+.main-links {
+  display: flex;
+  color: #403c39;
+  align-items: center;
+  width: 47.65vw;
+  justify-content: space-between;
+  list-style: none;
+}
+.sign-links {
+  display: flex;
+
+  gap: 2vw;
+  align-items: center;
+  list-style: none;
+}
+.kk {
+  background-color: red;
+}
+.link {
+  text-decoration: none;
+  position: relative;
+}
+.active {
+  color: #02a8a8;
+}
+
+.active::after {
+  content: "";
+  position: absolute;
+  bottom: -15px; /* Adjust the space between the text and the decoration */
+  width: 80%; /* Set the width of the decoration to cover the text */
+  border-bottom: 2px solid #02a8a8; /* Customize the color and thickness */
+  left: 10%;
+}
+.sign-in {
+  color: #02a8a8;
+  text-decoration: #02a8a8 solid 1px underline;
+}
+.sign-up {
+  display: flex;
+  width: 149px;
+  height: 60px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 100px;
+  background: #018383;
+  color: white;
+}

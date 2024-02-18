@@ -1,0 +1,34 @@
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 300px;
+  height: 202px;
+  box-shadow: 0px 24px 50px 0px rgba(0, 0, 0, 0.05);
+}
+.service img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 24px;
+}
+.service-title {
+  color: var(--Black, #403c39);
+  /* Text Medium 1 */
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+.service-desc {
+  color: var(--Gray-2, #909090);
+
+  /* Text 2 */
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

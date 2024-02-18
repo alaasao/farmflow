@@ -1,0 +1,34 @@
+@keyframes jj{
+    from{
+        flex-direction: row;
+    }
+    to{
+        flex-direction: row-reverse;
+    }
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(-25%);
+        animation-timing-function: cubic-bezier(0.8,0,1,1);
+    }
+    50% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
+}
+
+
+
+
+@keyframes slideFromRight {
+    from {
+      transform: translateX(70%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  .animate-slideFromRight {
+    animation: slideFromRight 2s  ;
+  
+}

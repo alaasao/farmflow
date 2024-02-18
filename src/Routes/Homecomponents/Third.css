@@ -1,0 +1,87 @@
+.third {
+  padding-right: 7vw;
+  padding-left: 11.35vw;
+}
+.third-one-logo {
+  width: 300px;
+}
+.third-one {
+  display: flex;
+  align-items: center;
+  gap: 5vw;
+}
+/* .third-one p {
+  color: #5b5b5b;
+
+  font-family: Poppins;
+  font-size: 40px;
+
+  font-weight: 400;
+
+} */
+.third-two {
+  margin-top: 138px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+  position: relative;
+}
+.vector {
+  width: 105vw;
+  position: absolute;
+  left: -11.5vw;
+  top: 0px;
+  height: 216px;
+  z-index: -10;
+}
+.step-circle {
+  width: 13vw;
+  height: 13vw;
+  border-radius: 50%;
+  background-color: rgba(13, 13, 13, 0.32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.step-green-circle {
+  width: 10vw;
+  height: 10vw;
+  background: linear-gradient(251deg, #42e6a4 12.87%, #02a8a8 89.33%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.step-circle p {
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 102.201px;
+  height: 98.575px;
+}
+.step {
+  width: 12vw;
+
+  color: #5b5b5b;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.desc {
+  display: flex;
+  gap: 10px;
+  margin-top: 31px;
+}
+.desc img {
+  width: 4vw;
+  height: 4vw;
+}
+.desc p {
+  padding-top: 21px;
+}
