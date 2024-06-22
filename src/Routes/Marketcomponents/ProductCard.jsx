@@ -18,12 +18,13 @@ const ProductCard = ({
 console.log(img)
   let [likedByUser, setLiked] = useState(false); //when u do the login work take this condition and the onclick func out
   let [addedByUser, setAdded] = useState(true); //same goes here
+
   return (
     <div
       className={`w-[410px] min-w-[270px]  h-[551px] flex flex-col justify-between font-poppins overflow-hidden overflow-hidden `}
     >
       <div className="relative ">
-        <img src=""className="w-[100%] h-[396px]" />
+        <img src={img} className="w-[100%] h-[396px]" />
         <i
           className={`fa-regular fa-heart w-[50px] h-[50px] rounded-[50%] absolute right-[24px] top-[11px] flex justify-center items-center cursor-pointer ${
             likedByUser ? "bg-[#42E6A4]" : "bg-white"

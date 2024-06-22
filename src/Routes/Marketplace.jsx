@@ -7,7 +7,7 @@ import Context from "./Context";
 import  Nav  from "./Homecomponents/Nav";
 import Footer from "./Homecomponents/Footer";
 const Marketplace = () => {
-  const [clickedType, setClickedType] = useState(1);
+  const [clickedType, setClickedType] = useState("Grain");
 
   return (
     <Context.Provider value={{ clickedType, setClickedType }}>
